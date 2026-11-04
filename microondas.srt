@@ -1,0 +1,239 @@
+1
+00:00:00,080 --> 00:00:01,653
+¿Cómo calienta un microondas
+
+2
+00:00:01,653 --> 00:00:02,347
+tu comida?
+
+3
+00:00:02,347 --> 00:00:03,707
+Metes un plato frío,
+
+4
+00:00:03,707 --> 00:00:05,120
+pulsas un botón y,
+
+5
+00:00:05,120 --> 00:00:06,528
+un minuto después, la
+
+6
+00:00:06,528 --> 00:00:07,977
+comida quema… pero el
+
+7
+00:00:07,977 --> 00:00:09,360
+centro sigue helado.
+
+8
+00:00:09,360 --> 00:00:10,617
+¿Qué está pasando ahí
+
+9
+00:00:10,617 --> 00:00:11,120
+dentro?
+
+10
+00:00:11,120 --> 00:00:12,120
+Detrás de una de
+
+11
+00:00:12,120 --> 00:00:13,180
+sus paredes hay una
+
+12
+00:00:13,180 --> 00:00:15,013
+pieza llamada magnetrón.
+
+13
+00:00:15,013 --> 00:00:16,267
+Su trabajo es generar
+
+14
+00:00:16,267 --> 00:00:18,853
+microondas: ondas electromagnéticas que
+
+15
+00:00:18,853 --> 00:00:20,297
+transportan energía.
+
+16
+00:00:20,297 --> 00:00:22,053
+Cuando atraviesan la comida,
+
+17
+00:00:22,053 --> 00:00:23,493
+su campo eléctrico cambia
+
+18
+00:00:23,493 --> 00:00:24,613
+de dirección miles de
+
+19
+00:00:24,613 --> 00:00:25,830
+millones de veces por
+
+20
+00:00:25,830 --> 00:00:26,480
+segundo.
+
+21
+00:00:26,480 --> 00:00:28,040
+Las moléculas de agua,
+
+22
+00:00:28,040 --> 00:00:28,960
+que tienen un lado
+
+23
+00:00:28,960 --> 00:00:30,773
+ligeramente positivo y otro
+
+24
+00:00:30,773 --> 00:00:32,860
+negativo, intentan orientarse con
+
+25
+00:00:32,860 --> 00:00:34,187
+ese campo cambiante.
+
+26
+00:00:34,187 --> 00:00:35,333
+Al interactuar con las
+
+27
+00:00:35,333 --> 00:00:37,147
+moléculas de alrededor, esa
+
+28
+00:00:37,147 --> 00:00:38,533
+energía se transforma en
+
+29
+00:00:38,533 --> 00:00:39,088
+calor.
+
+30
+00:00:39,088 --> 00:00:40,053
+Pero las ondas no
+
+31
+00:00:40,053 --> 00:00:41,480
+calientan todas las zonas
+
+32
+00:00:41,480 --> 00:00:42,213
+por igual.
+
+33
+00:00:42,213 --> 00:00:43,253
+Dentro del horno se
+
+34
+00:00:43,253 --> 00:00:44,620
+forman puntos que reciben
+
+35
+00:00:44,620 --> 00:00:46,080
+más energía que otros.
+
+36
+00:00:46,080 --> 00:00:47,253
+El plato gira para
+
+37
+00:00:47,253 --> 00:00:48,480
+repartirla mejor.
+
+38
+00:00:48,480 --> 00:00:50,620
+Además, las microondas penetran
+
+39
+00:00:50,620 --> 00:00:52,080
+una distancia limitada.
+
+40
+00:00:52,080 --> 00:00:53,547
+En los alimentos gruesos,
+
+41
+00:00:53,547 --> 00:00:55,000
+el calor también necesita
+
+42
+00:00:55,000 --> 00:00:56,380
+avanzar por conducción.
+
+43
+00:00:56,380 --> 00:00:57,640
+Por eso pueden quedar
+
+44
+00:00:57,640 --> 00:00:58,827
+partes frías.
+
+45
+00:00:58,827 --> 00:00:59,680
+¿El truco?
+
+46
+00:00:59,680 --> 00:01:00,907
+Remueve la comida a
+
+47
+00:01:00,907 --> 00:01:01,840
+mitad del tiempo y
+
+48
+00:01:01,840 --> 00:01:03,680
+déjala reposar al terminar:
+
+49
+00:01:03,680 --> 00:01:06,080
+el calor seguirá distribuyéndose.
+
+50
+00:01:06,080 --> 00:01:07,813
+Y tranquilo: al apagarlo,
+
+51
+00:01:07,813 --> 00:01:09,733
+no quedan microondas almacenadas
+
+52
+00:01:09,733 --> 00:01:10,693
+en tu comida ni
+
+53
+00:01:10,693 --> 00:01:12,133
+se vuelve radiactiva.
+
+54
+00:01:12,133 --> 00:01:13,333
+Ahora sabes por qué
+
+55
+00:01:13,333 --> 00:01:14,764
+tu sopa puede quemarte…
+
+56
+00:01:14,764 --> 00:01:16,240
+mientras una patata sigue
+
+57
+00:01:16,240 --> 00:01:16,800
+fría.
+
+58
+00:01:16,800 --> 00:01:18,240
+Sígueme para descubrir la
+
+59
+00:01:18,240 --> 00:01:19,333
+ciencia escondida en lo
+
+60
+00:01:19,333 --> 00:01:20,000
+cotidiano.

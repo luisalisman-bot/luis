@@ -1,0 +1,11 @@
+Quiero que trabajes a partir del paquete kit-mapas-profesionales que adjunto, no que me des solo una explicación.
+
+1. Descomprímelo y lee START_HERE.md, AGENTS.md o CLAUDE.md, PROJECT_CONTEXT.md, STYLE.md y .agents/skills/mapas-profesionales/SKILL.md. Consulta SKILLS_INDEX.md: el paquete trae 11 skills públicos y una guía propia. Usa los que correspondan al trabajo.
+2. Comprueba tus herramientas reales de archivos, terminal, Node, Python, navegador y medios. Si falta una capacidad necesaria, explica el impedimento concreto sin fingir una exportación.
+3. Toma como base la versión aprobada: mapa a pantalla completa, textura real, fronteras luminosas, nombres anclados, zooms y paneos motivados por la voz, subtítulos discretos y sonido sincronizado.
+4. Para reproducir este video, utiliza mi MP3 original adjunto y scripts/run.py: primero --check, después --audio con --stills, después --sample. Revisa y corrige. Finalmente usa --render y verifica los informes y el archivo real.
+5. Si pido un tema o audio nuevos, escribe primero el montaje nuevo y actualiza captions.json, escenas, duración y project.json. Conserva mi voz y usa coordenadas y cifras verificadas. No reutilices los tiempos de la historia anterior.
+6. Realiza las decisiones reversibles necesarias sin detenerte en un plan. Mantén versiones anteriores y entrega MP4 más SRT. Si pido una miniatura, utiliza 3:4 y tipografía muy legible en móvil; cuando pida publicación, dame título y cinco hashtags listos para copiar.
+7. Publica únicamente lo que autorice en esta conversación. El código no trae cuentas conectadas ni autorizaciones del chat anterior.
+
+La grabación original y los videos de referencia se adjuntan aparte. El paquete contiene los recursos gráficos, los sonidos del montaje, la miniatura aprobada y el contexto completo.

@@ -1,0 +1,20 @@
+{
+  "path": "out/sentinel-del-norte.mp4",
+  "bytes": 56298826,
+  "duration": "76.300000",
+  "frames": "2289",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "atoms": [
+    "ftyp",
+    "moov",
+    "free",
+    "mdat"
+  ],
+  "sha256": "5cfea14a85e737e823b1b034e2618a489ce5ceb87e52e5684f47d29e3ae6be8a",
+  "decode": "all frames and audio decoded",
+  "black_intervals": false,
+  "audio_analysis": "Summary:\n\n  Integrated loudness:\n    I:         -16.1 LUFS\n    Threshold: -26.4 LUFS\n\n  Loudness range:\n    LRA:         2.2 LU\n    Threshold: -36.4 LUFS\n    LRA low:   -17.5 LUFS\n    LRA high:  -15.4 LUFS\n\n  True peak:\n    Peak:       -2.1 dBFS\n[out#0/null @ 0x56025a52ed00] video:0KiB audio:14292KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:01:16.31 bitrate=N/A speed= 178x    \n"
+}

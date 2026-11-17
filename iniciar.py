@@ -96,6 +96,9 @@ def main():
             print("Subtitulos en espanol. No necesitas una clave API para el recorte basico.")
             print("\nDeja esta ventana abierta mientras usas PeakCut.")
             print("Para salir, pulsa Ctrl+C o cierra esta ventana.\n")
+            if os.environ.get("PEAKCUT_PORTABLE_CHECK") == "1":
+                print("PEAKCUT_WINDOWS_STARTUP_OK")
+                return
             webbrowser.open(base + "/app")
             child.wait()
             if child.returncode:

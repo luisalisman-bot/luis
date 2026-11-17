@@ -1,0 +1,35 @@
+name: Build and publish PeakCut for Windows
+on:
+  push:
+    branches: [peakcut-windows]
+    paths-ignore: ['README.md']
+permissions:
+  contents: write
+concurrency:
+  group: peakcut-windows-release
+  cancel-in-progress: false
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install model packaging libraries
+        run: python -m pip install numpy==2.2.6 onnx==1.23.2
+      - name: Prepare the portable Windows distribution
+        run: python tools/build_portable.py
+      - name: Test the Spanish caption behavior with bundled Python
+        run: work/PeakCut-Windows/runtime/python.exe tests/test_portable.py
+      - name: Test actual Windows startup and captioned clip export
+        run: work/PeakCut-Windows/runtime/python.exe tools/smoke_windows.py work/PeakCut-Windows work/whisper-base/sherpa-onnx-whisper-base/test_wavs/1.wav
+      - name: Package the tested distribution
+        run: python tools/build_portable.py pack
+      - name: Publish direct downloads
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create peakcut-windows-v1.0.0 dist/PeakCut-Windows.zip dist/PeakCut-Windows.sha256.txt --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "PeakCut para Windows — paquete portatil" --notes-file distribution/RELEASE.md

@@ -1,0 +1,39 @@
+Componentes del paquete y fuentes
+
+PeakCut (MIT), revision 599da673c0ec1c44d667fe7f456e725a5f92412e:
+https://github.com/haziqahmedqasmi/PeakCut
+El codigo modificado de esta edicion esta incluido en studio/ y en iniciar.py.
+
+Python 3.12.10, distribucion oficial para Windows publicada en NuGet:
+https://www.nuget.org/packages/python/3.12.10
+https://github.com/python/cpython/tree/v3.12.10
+Licencia incluida en runtime/LICENSE.txt.
+
+FFmpeg 9.0.2 essentials build, Gyan Doshi (GPL):
+https://github.com/GyanD/codexffmpeg/releases/tag/9.0.2
+https://github.com/FFmpeg/FFmpeg/tree/n9.0.2
+https://github.com/GyanD/codexffmpeg
+Licencia, documentacion y configuracion de la distribucion en licencias/ffmpeg/.
+Se incluyen ffmpeg.exe y ffprobe.exe de ese mismo ZIP, sin modificaciones.
+
+Deno 2.9.8 (MIT):
+https://github.com/denoland/deno/releases/tag/v2.9.8
+https://github.com/denoland/deno/tree/v2.9.8
+
+Whisper base (MIT):
+https://github.com/openai/whisper
+Modelos ONNX exportados por sherpa-onnx (Apache-2.0):
+https://github.com/k2-fsa/sherpa-onnx/releases/tag/asr-models
+Archivo original: sherpa-onnx-whisper-base.tar.bz2
+Se incluyen encoder y decoder int8 y el vocabulario multilingue.
+Se anade al decoder una salida de atencion que ya existe en su grafo, usando
+las cabezas de alineacion publicadas por OpenAI para base. No se entrenan ni
+cambian los pesos. Contrato de salida y alineacion segun:
+https://github.com/k2-fsa/sherpa-onnx/blob/master/scripts/whisper/export-onnx-with-attention.py
+El script de transformacion esta incluido en fuentes-modelo/.
+
+Las licencias de los paquetes Python estan incluidas en sus carpetas
+runtime/Lib/site-packages/*.dist-info/ y el inventario en paquetes.json.
+Los runtimes de Microsoft se redistribuyen con su licencia en la carpeta
+msvc_runtime-*.dist-info/licenses/.
+Las fuentes de subtitulos tienen sus licencias OFL en studio/fonts/.

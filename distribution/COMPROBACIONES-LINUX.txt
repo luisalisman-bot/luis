@@ -1,0 +1,32 @@
+PAQUETE PORTATIL PEAKCUT — VERIFICACION
+
+Plataforma de pruebas: Linux x64, Python 3.12.14.
+Plataforma del paquete: Windows x64, Python oficial NuGet 3.12.10.
+
+Resultados:
+- Servidor: /healthz y /app responden HTTP 200.
+- Subida por HTTP de un MP4 de prueba con voz sintetica en espanol: correcta.
+- Pipeline completo sin API: 64 palabras y un clip exportado de 10.6 segundos.
+- Exportacion verificada con ffprobe: H.264 + AAC, 1080 x 1920.
+- Fotograma del clip revisado: subtitulos incrustados visibles.
+- Whisper: marcas de palabra positivas, ordenadas y dentro del audio.
+- El modelo con salida de atencion produce el mismo texto de prueba en ingles
+  que el original, y anade tiempos por token calculados con DTW.
+- Cinco pruebas de la edicion portatil: correctas (idioma, acentos, silencio,
+  seleccion del modelo y deteccion de archivos ausentes).
+- Dependencias para CPython 3.12 / win_amd64: 35 paquetes; ninguna dependencia
+  obligatoria ausente o incompatible al evaluar los marcadores de Windows.
+- Revision de imports PE del motor de voz: bibliotecas incluidas o de Windows.
+- Suite original antes y despues: 401 comprobaciones correctas y una fallida.
+  El mismo fallo aparece sin los cambios: el test de CPU saturada mide 67%
+  en este entorno y espera superar 82%. No se altero ni se oculto ese test.
+
+Limites:
+- No se ha ejecutado el iniciador ni los binarios dentro de Windows.
+- El audio sintetico sirve como prueba de funcionamiento, no como medida de
+  precision. Whisper puede equivocarse: hay que revisar los subtitulos.
+- No se verificaron descargas reales de YouTube, directos ni publicaciones
+  en cuentas sociales. Dependen de las plataformas y de tus propias cuentas.
+- Sin clave API se usa el modo oficial de seleccion por volumen, no un modelo
+  de chat. No se incorpora ninguna clave ajena ni se factura un proveedor.
+- La interfaz original sigue en ingles.

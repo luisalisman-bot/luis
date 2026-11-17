@@ -1,0 +1,7 @@
+work/
+dist/
+data/
+.env
+storage.json
+__pycache__/
+*.pyc

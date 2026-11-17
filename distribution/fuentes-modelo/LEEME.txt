@@ -1,0 +1,14 @@
+Este directorio documenta la transformacion del modelo distribuido.
+No se necesita ejecutarla para usar el paquete.
+
+Para reproducir el script en un directorio de compilacion:
+- Crea work/whisper-base/ y extrae ahi el archivo original
+  sherpa-onnx-whisper-base.tar.bz2 del enlace en ORIGENES.txt.
+- Copia whisper-init.py en work/whisper-init.py.
+- Con numpy y onnx instalados, ejecuta preparar_modelo.py desde el directorio
+  que contiene work/. Genera work/model-whisper-base/.
+- Los tres archivos resultantes son los incluidos en models/whisper-base/.
+
+El contrato de salida es el del exportador oficial de sherpa-onnx citado.
+Los indices de las cabezas de alineacion se leen de la mascara publicada por
+OpenAI Whisper. Los pesos existentes no se modifican.

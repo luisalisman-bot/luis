@@ -1,0 +1,47 @@
+PEAKCUT PARA WINDOWS 10/11 DE 64 BITS
+
+1. Haz clic derecho en el ZIP y elige "Extraer todo".
+2. En la carpeta extraida, haz doble clic en ABRIR_PEAKCUT.cmd.
+
+Se abre PeakCut en tu navegador. Sube un video con el boton Upload.
+No necesitas instalar Python, FFmpeg, Git ni escribir comandos.
+El modelo de voz tambien esta incluido; no se descarga al iniciar.
+Deja la ventana de PeakCut abierta mientras trabajas.
+
+Los videos, clips y ajustes se guardan en la carpeta data de este paquete.
+Manten toda la carpeta extraida en un lugar estable, con espacio para videos.
+El paquete no instala servicios ni cambia la configuracion de Windows.
+
+ESPANOL Y SELECCION DE CLIPS
+- Transcripcion local Whisper multilingue, configurada para espanol.
+- Conserva los subtitulos en el idioma hablado; no los traduce al ingles.
+- Sin clave API, la seleccion automatica se basa en el volumen del audio.
+- Puedes ajustar el inicio y el final de cada clip en el editor.
+- Opcional: Settings > AI permite conectar tu proveedor para una seleccion
+  basada en el contenido y para generar titulos. Ese proveedor puede cobrar.
+- Los enlaces de YouTube dependen tambien de las restricciones de YouTube.
+  Subir un archivo permite trabajar sin descargar desde esas plataformas.
+- La interfaz original de PeakCut sigue en ingles.
+- La publicacion automatica en redes requiere conectar tus propias cuentas.
+
+REQUISITOS
+Windows 10/11 x64. Recomendados 8 GB de RAM y varios GB libres para videos.
+No hace falta GPU. La velocidad depende del procesador y de la duracion.
+Los subtitulos automaticos pueden contener errores; revisalos antes de publicar.
+
+SI ALGO FALLA
+El detalle del inicio se guarda en data/inicio.log. Puedes compartir ese
+archivo en esta conversacion para que revise el problema.
+No borres data: contiene tus videos y ajustes.
+
+VERIFICACION
+Se ha probado el servidor, la transcripcion de voz en espanol con marcas de
+palabra y la exportacion de video en Linux con las mismas versiones Python.
+No se ha ejecutado este paquete en un equipo Windows durante esta entrega.
+Las dependencias nativas incluidas son sus distribuciones para Windows x64.
+Consulta COMPROBACIONES.txt para los resultados y limites exactos.
+
+ORIGEN
+PeakCut: https://github.com/haziqahmedqasmi/PeakCut
+Revision: 599da673c0ec1c44d667fe7f456e725a5f92412e
+Edicion portatil preparada en esta conversacion. No es un instalador oficial.

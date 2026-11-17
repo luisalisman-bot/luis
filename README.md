@@ -1,28 +1,33 @@
-# PeakCut para Windows
+# PeakCut gratis en el navegador con Google Colab
 
-[**Descargar PeakCut-Windows.zip**](https://github.com/luisalisman-bot/luis/releases/download/peakcut-windows-v1.0.0/PeakCut-Windows.zip)
+[**ABRIR PEAKCUT GRATIS EN COLAB**](https://colab.research.google.com/github/luisalisman-bot/luis/blob/peakcut-colab/PeakCut_Gratis_Colab.ipynb)
 
-1. Descarga el ZIP y elige **Extraer todo**.
-2. Dentro de la carpeta, abre **ABRIR_PEAKCUT.cmd** con doble clic.
-3. Se abre PeakCut en el navegador. Sube un video para empezar.
+1. Entra con tu cuenta de Google.
+2. Pulsa **Entorno de ejecución → Ejecutar todo**.
+3. Selecciona un video cuando aparezca el selector de archivos.
+4. Espera al procesamiento en Google y descarga el ZIP de los clips.
 
-Windows 10/11 de 64 bits. Incluye Python, FFmpeg, Deno y el modelo de voz
-Whisper multilingüe, configurado para español. No necesitas instalar programas
-ni ejecutar comandos. Conserva los subtítulos en su idioma original.
+Usa una sesión alojada gratuita de CPU. No necesitas instalar el programa en
+Windows, activar una GPU, pagar un servidor ni conectar una API de pago.
+El trabajo de transcripción y exportación se realiza en Google. El navegador
+se usa para subir el archivo, manejar el cuaderno y descargar el resultado.
 
-Sin clave API, PeakCut selecciona clips por el volumen del audio. La selección
-basada en el contenido requiere conectar tu proveedor desde **Settings → AI**.
-La interfaz original sigue en inglés. La publicación en redes requiere tus
-propias cuentas y su configuración.
+Las sesiones son temporales y Google aplica cuotas variables. Descarga los
+clips antes de cerrar. La selección básica se basa en el volumen y los
+subtítulos automáticos están configurados para español; conviene revisarlos.
+Esta adaptación incluye subida, procesamiento y descarga dentro del cuaderno.
+El editor completo de escritorio y la publicación en redes siguen en la
+aplicación original.
 
-Esta es una edición portátil independiente de
-[PeakCut](https://github.com/haziqahmedqasmi/PeakCut), a partir de la revisión
-`599da673c0ec1c44d667fe7f456e725a5f92412e`. No es una descarga oficial del autor.
+[Condiciones y límites oficiales de Colab](https://research.google.com/colaboratory/faq.html).
 
-El flujo de GitHub Actions prepara las dependencias con versiones y hashes
-fijados y prueba el iniciador y una exportación real dentro de Windows antes
-de publicar la descarga. Los resultados y las limitaciones están en los
-archivos `COMPROBACIONES-*` del ZIP.
+Basado en [PeakCut](https://github.com/haziqahmedqasmi/PeakCut), MIT, con
+Whisper multilingüe. El motor y el modelo se extraen de una versión verificada
+del paquete publicado; el Python de Windows queda fuera del entorno de Google.
+Los archivos subidos y generados pertenecen a la sesión del usuario y no se
+incluyen en este repositorio.
 
-El código de esta edición está en la rama `peakcut-windows`. La rama principal
-del repositorio permanece separada. Las licencias originales están incluidas.
+La comprobación automatizada valida el cuaderno y el procesamiento real en
+Linux con el mismo ayudante. El inicio de sesión de Google, el selector de
+archivos y la descarga dentro de la interfaz de Colab requieren la sesión del
+usuario y no se han comprobado con su cuenta.
